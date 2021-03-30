@@ -85,7 +85,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0720;
-				LastUpgradeCheck = 1000;
+				LastUpgradeCheck = 1150;
 				TargetAttributes = {
 					B80894DF1C852D100018730E = {
 						CreatedOnToolsVersion = 7.2.1;
@@ -95,10 +95,11 @@
 			};
 			buildConfigurationList = B80894D81C852CDC0018730E /* Build configuration list for PBXProject "Tests" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = B80894D41C852CDC0018730E;
 			productRefGroup = B80894E11C852D100018730E /* Products */;
@@ -137,6 +138,7 @@
 		B80894D91C852CDC0018730E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
@@ -170,6 +172,7 @@
 		B80894DA1C852CDC0018730E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
